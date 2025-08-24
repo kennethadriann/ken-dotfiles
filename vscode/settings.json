@@ -1,0 +1,58 @@
+{
+
+  // Theme & Icons
+  "workbench.colorTheme": "Catppuccin Mocha",
+  "workbench.iconTheme": "catppuccin-mocha",
+  "catppuccin.accentColor": "mauve",
+  "catppuccin.colorOverrides": {
+    "mocha": {
+      "base": "#1e1e2e",
+      "mantle": "#181825",
+      "crust": "#11111b"
+    }
+  },
+
+  // UI Tweaks
+  "workbench.activityBar.location": "hidden",
+  "workbench.sideBar.location": "right",
+  "workbench.statusBar.visible": false,
+  "workbench.editor.centeredLayoutAutoResize": true,
+  "workbench.startupEditor": "none",
+  "workbench.editor.restoreViewState": true,
+  "chat.commandCenter.enabled": false,
+
+
+  // Editor Clean
+  "editor.fontFamily": "JetBrains Mono",
+  "editor.fontSize": 20,
+  "editor.lineHeight": 1.4,
+  "editor.letterSpacing": 0.5,
+  "editor.fontLigatures": true,
+  "editor.minimap.enabled": false,
+  "editor.wordWrap": "on",
+  "editor.renderWhitespace": "none",
+  "editor.codeLens": false,
+  "editor.inlayHints.enabled": "off",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.cursorBlinking": "smooth",
+
+  // Zen Mode (optional)
+  "zenMode.hideStatusBar": true,
+  "zenMode.hideActivityBar": true,
+  
+  "breadcrumbs.enabled": true,
+
+  // Minimal Tabs (native only)
+  "workbench.editor.showTabs": "multiple",
+  "workbench.editor.tabSizing": "shrink",          // compact tabs
+  "workbench.editor.showIcons": false,             // cleaner labels
+  "workbench.editor.labelFormat": "short",         // short filenames
+  "workbench.editor.wrapTabs": false,              // single row
+  "workbench.editor.decorations.badges": false,
+  "workbench.editor.decorations.colors": false,
+  "window.titleBarStyle": "native",
+  "workbench.secondarySideBar.defaultVisibility": "hidden", // slimmer mac title bar (optional)
+  "editor.scrollbar.horizontal": "hidden",
+  "editor.glyphMargin": false,
+
+}
